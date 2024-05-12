@@ -22,8 +22,8 @@ def load_LLM(openai_api_key):
     return llm
 
 # Setting the Streamlit page configuration
-st.set_page_config(page_title="Blog Generator", page_icon=":flag-bg:")
-st.header("Blog Generator")
+st.set_page_config(page_title="Blog Creator", page_icon=":thought_balloon:")
+st.header("Blog Creator")
 
 st.image(image=logo,width=None)
 
