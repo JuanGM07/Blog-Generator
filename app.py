@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain import PromptTemplate
-from langchain_openai import OpenAI
+from langchain.llms import OpenAI
 
 logo='cover-superdark.png'
 
